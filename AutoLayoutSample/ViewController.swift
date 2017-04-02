@@ -77,6 +77,7 @@ class ViewController: UIViewController {
                                                         attribute: NSLayoutAttribute.bottom,
                                                         multiplier: 1.0,
                                                         constant: -20)
+        self.view.addConstraint(yellowBottomConstraint)
         
     }
     
