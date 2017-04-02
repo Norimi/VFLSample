@@ -13,6 +13,8 @@
 		97F037BA1E907DA40035F3E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F037B91E907DA40035F3E3 /* Assets.xcassets */; };
 		97F037BD1E907DA40035F3E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F037BB1E907DA40035F3E3 /* LaunchScreen.storyboard */; };
 		97F037C81E907DA40035F3E3 /* AutoLayoutSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F037C71E907DA40035F3E3 /* AutoLayoutSampleTests.swift */; };
+		97F037D31E9084000035F3E3 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F037D21E9084000035F3E3 /* NextViewController.swift */; };
+		97F037D51E908D490035F3E3 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F037D41E908D490035F3E3 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		97F037C31E907DA40035F3E3 /* AutoLayoutSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F037C71E907DA40035F3E3 /* AutoLayoutSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutSampleTests.swift; sourceTree = "<group>"; };
 		97F037C91E907DA40035F3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97F037D21E9084000035F3E3 /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		97F037D41E908D490035F3E3 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				97F037B21E907DA40035F3E3 /* AppDelegate.swift */,
 				97F037B41E907DA40035F3E3 /* ViewController.swift */,
+				97F037D21E9084000035F3E3 /* NextViewController.swift */,
+				97F037D41E908D490035F3E3 /* ThirdViewController.swift */,
 				97F037B61E907DA40035F3E3 /* Main.storyboard */,
 				97F037B91E907DA40035F3E3 /* Assets.xcassets */,
 				97F037BB1E907DA40035F3E3 /* LaunchScreen.storyboard */,
@@ -200,6 +206,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				97F037B51E907DA40035F3E3 /* ViewController.swift in Sources */,
+				97F037D31E9084000035F3E3 /* NextViewController.swift in Sources */,
+				97F037D51E908D490035F3E3 /* ThirdViewController.swift in Sources */,
 				97F037B31E907DA40035F3E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
